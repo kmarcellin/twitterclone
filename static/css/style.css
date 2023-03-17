@@ -1,0 +1,259 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.content{
+max-width:600px;
+height:90%;
+margin:0 auto;
+border-left: .5 px solid #ccc;
+border-right: .5px solid #ccc;
+
+}
+
+/* .post_form{
+
+    border-bottom: 1px solid #ccc ;
+    display: flex;
+    text-align: center;
+    padding: 30px 15px;
+    border-top: 1px solid;
+} */
+
+.post ul{
+    padding: 0%
+
+}
+.posts li{
+    display: flex;
+    border: 1px solid #3cc;
+    padding : 10% 15%;
+    position: relative;
+}
+
+.post_form input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+div.text {
+    display:flex;
+    align-items: center;
+}
+.menu_icon{
+    position: absolute;
+    top: 0;
+    right: 3%;
+}
+.menu {
+    position: absolute;
+    top: 27%;
+    right: 9%;
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 15px 5px;
+}
+.menu a{
+    text-decoration: none;
+    
+
+}
+ button{
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 5px;
+    border-radius: 10px;
+    background-color: skyblue;
+    height: 40px;
+
+
+}
+ .post_form textarea {
+        width: 90%;
+        padding: 10px;
+        border: .5px solid #ccc;
+        margin: 10px 0px;
+    }
+    .input-name{
+        border: none;
+    }
+.posts li .logo{
+    flex-basis: 15%;
+}
+.post li .logo img{
+  width:  60%;
+}
+.posts li .name_body{
+   flex-basis: 85%;
+}
+.posts ul li img{
+    width: 60px;
+}   
+.posts li .name_body .name{
+    font-weight: bold;
+
+}
+.posts li .name_body .datetime{
+    color: gray;
+}
+@media screen and(max-width: 500px) {
+  .posts li.name_body .name {
+      font-size: 20px;
+  }
+}
+
+html,
+body {
+   height: fit-content;
+}
+.content {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+.post_form input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+}
+/*.post_form textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #E6FEF7;
+}*/
+.posts ul {
+    padding: 0;
+}
+.posts li {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px;
+    list-style: none;
+}
+.posts li .logo {
+    flex-basis: 15%;
+}
+.posts li .logo img {
+    width: 60%;
+}
+.posts li .name_body {
+    flex-basis: 85%;
+}
+.posts li .name_body .name {
+    font-weight: bold;
+}
+.posts li .name_body .datetime {
+    color: gray;
+}
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+}
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    right: 30px;
+    top: 18px;
+}
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.posts li .menu a {
+    text-decoration: none;
+}
+img.twitterlog {
+    width: 10%;
+}
+.logodiv {
+    display: flex;
+    padding-left: 6%;
+    gap: 3%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2%;
+}
+input[type=“submit”] {
+    width: 22%;
+    background-color: #00ADEF;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+button {
+    background-color: #00ADEF;
+    width: 12%;
+    padding: 2%;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    margin-top: 2vw;
+}
+button.like-button {
+    color: red;
+}
+img.post-image {
+    height: 50vh;
+    border-radius: 15px;
+}
+.post_form textarea {
+    width: 70%;
+    padding: 10px;
+    /*border: 1px solid #ccc;*/
+    background-color: #E6FEF7;
+}
+textarea {
+    background-color: #E6FEF7;
+}
+
+#color{
+    background-color:#E6FEF7
+}
+
+.posts ul li img {
+    width: 224px;
+    margin-top: 1.5vw;
+    
+}
+
+ input #twee{
+    width: 3vw;
+}
+
+input#twee {
+    width: 15vw;
+}
+
+
+
+
+
+
+ 
